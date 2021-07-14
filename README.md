@@ -1,4 +1,4 @@
-![CI](https://github.com/usnistgov/ThreeBodyTB.jl/workflows/CI/badge.svg)
+![CI](https://github.com/kfgarrity/Fano.jl/workflows/CI/badge.svg)
 
 
 # Fano.jl
