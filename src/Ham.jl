@@ -16,7 +16,8 @@ function ham(freq, npts,  coupling, E1, gamma1, E2, gamma2, E3, gamma3, gamma_ma
 
     H[:,:] = diagm(v)
 
-    f = fano_pos(dvals, fano_param[1], fano_param[2], fano_param[3])
+    #    f = fano_pos(dvals, fano_param[1], fano_param[2], fano_param[3])
+    f = fano_other(dvals, fano_param[1], fano_param[2], fano_param[3])
 
 
 #    H[1,4:end] = coupling * sqrt.(f)

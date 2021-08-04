@@ -60,3 +60,18 @@ function lorentzian(x, E_res, gamma)
     return (gamma/2)^ 2 ./ ((gamma/2)^ 2 .+ (x .- E_res).^2)
     
 end
+
+
+
+function fano_other(x, E_res, G, q)
+
+    eps = (E_res .- x)/G
+    t = (q .+ eps).^2 ./ (1.0 .+ eps.^2) .* (1/(q^2))
+    dx = x[2] - x[1]
+
+    int = dx*sum(t)
+    return  t / int
+    
+end
+
+    
