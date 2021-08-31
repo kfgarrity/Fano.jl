@@ -1,5 +1,5 @@
 ![CI](https://github.com/kfgarrity/Fano.jl/workflows/CI/badge.svg)
-
+[![DOI](https://zenodo.org/badge/385793417.svg)](https://zenodo.org/badge/latestdoi/385793417)
 
 # Fano.jl
 
