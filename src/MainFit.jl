@@ -103,12 +103,18 @@ function main_fit( data ; mode=:plot_only, npts=400, start=missing, t1=70, t2=15
         display(plot!())
 
         #uncomment to write data
-#        write("model_VH/model_all", FREQ, RR1 + RR2 + RR3 + RRm)
-#        write("model_VH/model_phonon1", FREQ, RR2)
-#        write("model_VH/model_phonon2", FREQ, RR1)
-#        write("model_VH/model_phonon3", FREQ, RR3)
-#        write("model_VH/model_2mag", FREQ, RRm)
+#        write("model_VH_2/model_all", FREQ, RR1 + RR2 + RR3 + RRm)
+#        write("model_VH_2/model_phonon1", FREQ, RR2)
+#        write("model_VH_2/model_phonon2", FREQ, RR1)
+#        write("model_VH_2/model_phonon3", FREQ, RR3)
+#        write("model_VH_2/model_2mag", FREQ, RRm)
 
+#        write("model_VV_2/model_all", FREQ, RR1 + RR2 + RR3 + RRm)
+#        write("model_VV_2/model_phonon1", FREQ, RR2)
+#        write("model_VV_2/model_phonon2", FREQ, RR1)
+#        write("model_VV_2/model_phonon3", FREQ, RR3)
+#        write("model_VV_2/model_2mag", FREQ, RRm)
+        
         
     end
 
